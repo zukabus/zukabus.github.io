@@ -205,6 +205,11 @@
 .sub {
   padding-right: 10px;
   padding-left: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d1ffd3;
+  border-radius: 0px;
+  background-color: #ffe0e0;
   font-family: Montserrat, sans-serif;
   text-align: center;
   -webkit-column-count: auto;
@@ -257,6 +262,70 @@
   -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
+}
+
+.heading {
+  margin-top: auto;
+  border-bottom: 2px none #000;
+  background-color: #d5ffd6;
+  font-family: Montserrat, sans-serif;
+  font-size: 60px;
+  line-height: 80px;
+  text-align: center;
+}
+
+.container-2 {
+  max-width: 940vh;
+}
+
+.container-3 {
+  max-width: 940vh;
+  margin-top: -11px;
+  border-bottom: 2px solid #000;
+  background-color: #d1ffd3;
+  outline-color: #333;
+  outline-offset: 0px;
+  outline-style: none;
+  outline-width: 3px;
+  text-align: center;
+}
+
+.button {
+  background-color: #d1ffd3;
+  color: #000;
+  text-align: center;
+}
+
+.body {
+  background-color: #fff;
+}
+
+.container-4 {
+  max-width: 943vh;
+}
+
+.paragraph {
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.dropdown-toggle-5 {
+  padding-right: 75px;
+  padding-left: 75px;
+  background-color: #d1ffd3;
+}
+
+.dropdown-toggle-5.w--open {
+  background-color: #d7ffd7;
+}
+
+.bold-text-3 {
+  font-family: Montserrat, sans-serif;
+}
+
+.bold-text-4 {
+  font-family: Montserrat, sans-serif;
 }
 
 @media screen and (max-width: 991px) {
